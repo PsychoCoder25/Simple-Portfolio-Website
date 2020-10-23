@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black !important; /*change*/
+
+}
+
+nav {
+    /*background-color: rgb(149, 20, 149);*/
+    background-color: #2E294E;
+    height: 10vh;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white !important; /*change*/
+    font-size: 25px;
+    margin: 12px 56px 10px 46px;
+    font-family: 'Signika', sans-serif;
+    display: inline-block;
+    transition: 0.1s ease all;
+}
+
+nav a:hover{
+    border-bottom: 3px solid white;
+}
+
+header {
+    height: 90vh;
+    background-color: #F1E9DA;
+}
+
+.skills {
+    height: 730px;
+    background-color: #F1E9DA;
+
+}
+#html {
+    margin: 2px;
+    width: 234px;
+    height: 50px;
+    border: 2px solid black; /*change*/
+    display: inline-block;
+}
+
+.htmlheading {
+ display: inline;
+}
+
+.loading {
+    display: inline;
+    color: white;
+    font-size: 30px;
+}
+
+.skillsPercentage {
+    font-family: 'Commissioner', sans-serif;
+    display: inline-block;
+    color: black; /*change*/
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#skillsSection {
+    padding: 60px;
+}
+
+.skillsHeading {
+    text-decoration: underline;
+     color: black;
+    font-size: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    word-spacing: 8px
+}
+
+.skillHead {
+     color: black;
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+#projects-div {   
+    height: 1642px;
+    background-color: #F1E9DA;
+}
+
+.projectsHead { 
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 5px;
+    color: black;
+    font-size: 50px;
+    text-decoration: underline;
+    padding: 60px;    
+    cursor: pointer;
+    display: inline-block;
+}
+
+.projectBox {
+    width: 418px;
+    height: 300px;
+    margin: 7px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.projectBox:hover {
+    cursor: pointer;
+    transform: scale(1.12);
+    background-color: purple;
+    z-index: 2;
+}
+
+.heroSection {
+    height: 90vh;
+    background-color: #F1E9DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.col {
+    display: inline-block;
+    padding: 5px;
+}
+
+#headerImg {
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-left: 68px;
+    margin-top: 10px;
+}
+
+#headerHeading {
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-family: 'Staatliches', cursive;
+}
+
+#headerDescription {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 20px 0 20px 0;
+}
+
+#orderBtn {
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    color: white;
+    /*background-color: green;*/
+    border: 2px solid black; /*change*/
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    transition: 0.1s ease all;
+    cursor: pointer;
+}
+
+#orderBtn:hover {
+    background-color: black; /*change*/
+    color: white !important; /*change*/
+}
+
+.left {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
+.contactSection {
+    height: 700px;
+    background-color: #F1E9DA;
+    color: white;
+}
+
+.contactHeading {
+    letter-spacing: 5px;
+    font-family: 'Staatliches', cursive;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 60px 
+}
+
+.contactHead {
+    font-size: 25px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.contactInput {
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+}
+
+input, select, textarea {
+    background: none; 
+    color: white;
+    border: 2px solid black; /*change*/
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnContact {
+    background: none;
+    font-size: 18px;
+    border: 2px solid black;  /*change*/
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s ease all;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+.btnContact:hover {
+    background-color: black;
+    color: white !important;  /*change*/
+}
+
+th, td {
+    padding: 10px;
+}
+
+footer {
+    font-family: 'Signika', sans-serif;
+    color: white !important;  /*change*/
+    height: 60px;
+    background-color: #2E294E; /*change*/
+}
+
+.shafiProductions {
+    text-decoration: none;
+    color: white !important;  /*change*/
+    transition: 0.1s ease all;
+}
+
+.shafiProductions:hover {
+    border-bottom: 2px solid white
+}
+
+.leftFooter {
+    font-family: 'Signika', sans-serif;
+    color: white !important;  /*change*/
+    display: inline-block;
+    margin: 20px 0 0 20px;
+}
+
+.rightFooter {
+    color: white !important;  /*change*/
+    float: right;
+    margin: 20px 20px 0 20px;
+}
+
+select {
+    background: none;
+    -webkit-appearance: none;
+    overflow: hidden;
+    width: 120%
+}
+
+#moreProjectsBtn {
+    margin-top: 45px;
+    padding: 10px;
+    transition: 0.1s ease all;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+#moreProjectsBtn:hover {
+    background-color: black;
+    color: white !important;
+}
