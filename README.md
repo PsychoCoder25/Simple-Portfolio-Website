@@ -1,4 +1,4 @@
-# Simple-Portfolio-Website
+# Simple Portfolio Website
 Simple Portfolio Website using HTML &amp; CSS - Website #01
 
 # CHECK DEMO
